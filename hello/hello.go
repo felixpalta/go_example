@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "github.com/lolportal/go_example/stringutil"
+)
 
 func main() {
 
-    fmt.Println("Hello, Го")
+    s := "Hello, няша!"
+    fmt.Println(s)
+    fmt.Println("Reversed:", stringutil.Reverse(s))
 }
